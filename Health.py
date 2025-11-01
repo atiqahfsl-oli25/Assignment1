@@ -60,10 +60,15 @@ st.plotly_chart(fig2, use_container_width=True)
 
 # ==============================
 # Visualization 3: Mental Health Frequency vs Sleep Issues
-# ==============================
+# =============================
 st.subheader("💤 3. Mental Health Issue Frequency vs Sleep Issues")
+
+# Group and average data by Sleep Issues and Gender
+sleep_health_mean = df.groupby(['Sleep Issues', 'Gender'])['Mental Health Frequency'].mean().reset_index()
+
+# Now plot the aggregated data
 fig3 = px.line(
-    df,
+    sleep_health_mean,
     x='Sleep Issues',
     y='Mental Health Frequency',
     color='Gender',
@@ -71,6 +76,7 @@ fig3 = px.line(
     title='Mental Health Issue Frequency vs Sleep Issues',
     color_discrete_sequence=px.colors.qualitative.Set2
 )
+
 fig3.update_traces(line=dict(width=2), marker=dict(size=8, symbol='circle'))
 fig3.update_layout(
     xaxis_title="Sleep Issues",
@@ -82,6 +88,7 @@ fig3.update_layout(
     xaxis=dict(showgrid=True, gridwidth=1, gridcolor='lightgray'),
     yaxis=dict(showgrid=True, gridwidth=1, gridcolor='lightgray')
 )
+
 st.plotly_chart(fig3, use_container_width=True)
 
 # ==============================
