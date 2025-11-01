@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Add a banner image at the top
+# Add a banner image at the top 
 banner_image = 'https://raw.githubusercontent.com/fakhitah3/FHPK-TVET/main/3u1i.jpeg' 
 st.image(banner_image, use_container_width=True)
 
