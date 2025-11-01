@@ -1,17 +1,18 @@
-import streamlit as st 
+# test.py
+import streamlit as st
 
-st.set_page_config(
-    page_title="Student Survey"
-)
+st.set_page_config(page_title="Student Survey", page_icon="🎓")
 
-visualise = st.Page('Health.py', title='Pencapaian Akademik Pelajar', icon=':material/school:')
+# Homepage content
+st.title("🏠 Home Page — Student Survey")
 
-home = st.Page('home.py', title='HomePage', default=True, icon=':material/school:')
+st.markdown("""
+Welcome to the **Student Health & Lifestyle Dashboard**!  
+Use the sidebar to navigate between pages.
+""")
 
-pg = st.navigation (
-    {
-        "Menu" : [home, visualise]
-    }
-)
+# You can add any homepage visuals or info here
+st.image("https://raw.githubusercontent.com/fakhitah3/FHPK-TVET/main/3u1i.jpeg", use_container_width=True)
 
-pg.run()
+streamlit run test.py
+
