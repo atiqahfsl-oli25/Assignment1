@@ -108,6 +108,3 @@ fig4.update_layout(
 )
 st.plotly_chart(fig4, use_container_width=True)
 
-# --- Footer ---
-st.markdown("---")
-st.markdown("✅ *Dashboard created using Streamlit & Plotly — Interactive Health Insights*")
