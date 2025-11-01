@@ -1,0 +1,570 @@
+Name,Gender,Age Group,Profession,Region/Locality,Smoking Habit,Alcohol Consumption,Physical Activity Level,Fast Food Consumption Frequency,Current Health Conditions,Common Regional Health Concerns,Access to Clean Water & Sanitation,Pollution Exposure Area,Mental Health Frequency,Healthcare Access Method,Sleep Duration,Sleep Issues,Diet Type,Water Intake per Day,symptoms,particiualr disease,Blood group
+Aditi,Female,18,student,kothri kalan,No,No,10,very low,2,"chiken pox, flu,",yes,very less,5,low access,7,3,veg,4 litres,"headache,memory loss",alzheimers,O+
+Anjali,Female,20,student,kothri kalan,No,No,2,4 times in week,2,"chicken pox, flu",yes,very less,0,low access,7,3,veg,4 litres,cold.cough,no,A+
+Priya,Female,19,student,kothri kalan,No,No,10,5 times in week,2,"chicken pox, flu, malaria",yes,very less,6,low access,2,3,nonveg,2 litres,"cold,",fever,A+
+Kavya,Female,19,student,kothri kalan,No,No,13,once in week,2,"food poisoning, cough, cold",yes,very less,0,low access,13,3,nonveg,3 litres,headache,fewer,O+
+Sneha,Female,19,student,kothri kalan,No,No,0,3 times in week,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3.5 litres,body pain,no,O+
+Nisha,Female,19,student,kothri kalan,No,No,9,once a week,3,"chicken pox, flu, malaria, food poisoning",yes,very less,0,low access,10,3,veg,4 litres,stomach pain,stomach pain,O+
+Riya,Female,19,student,kothri kalan,No,No,7,none,2,"chicken pox, flu, malaria, food poisoning",yes,very less,1,low access,4,3,non veg,3 litres,"body main , weaknees",no,b+
+Shreya,Female,18,student,kothri kalan,No,No,6,once in week,2,"food poisoning, cough, cold",yes,very less,0,low access,2,1,non veg,3 lites,haeadach,no,B+
+Pooja,Female,19,student,kothri kalan,No,No,1,once in week,2,"food poisoning, chicken pox",yes,very less,0,low access/bad service,7,3,veg,4 litres,cough sneez weaknees,no,b+
+Meera,Female,20,student,kothri kalan,No,No,13,none,3,"chicken pox, viral fever, flu",yes,very less,7,moderate,7,3,veg,5 litres,cough cold,no,AB+
+Sanya,Female,20,student,kothri kalan,No,No,13,none,3,"chicken pox, viral fever, flu",yes,very less,0,below average,12,3,veg,4 litres,"body pain,headache, eye",no,a+
+Divya,Female,19,student,kothri kalan,No,No,1,3 times in week,5,"chicken pox, viral fever, flu",yes,very less,8,bad,1,3,veg,2.5 litres,weakness,no,A+
+Ayesha,Female,20,student,kothri kalan,No,No,8,none,2,"chicken pox, viral fever, flu",yes,very less,0,below average,5,3,non veg,4 litres,"body pain,",no,B+
+Neha,Female,20,student,kothri kalan,No,No,13,twice in week,2,"chicken pox, viral fever, flu",yes,very less,0,below average,10,3,veg,3 litres,weakness,no,O+
+Smita,Female,19,student,vit,Yes,No,3,no,6,seasonal,filter,no,12,doctor,11,3,veg,5,cold.cough,no,B+
+Radhika,Female,17,student,vit,No,No,4,yes,2,"Chiken pox ,cold hair fall,scabies",filter,no,9,doctor,11,7,mix,5,"cold,",fever,AB+
+Ananya,Female,18,student,vit,No,No,11,no,4,pimples,filter,no,9,doctor,0,3,veg,5,headache,fewer,b+
+Isha,Female,20,student,vit,No,No,11,yes,1,"Chiken pox ,cold hair fall,scabies",filter,no,12,college doctor,11,3,mix,8,headache cough,asthma,AB-
+Swati,Female,19,student,vit,No,No,11,yes,2,"Chiken pox ,cold hair fall,scabies",filter,no,4,doctor,11,3,veg,5,headache,no,A+
+Jyoti,Female,19,student,vit,No,No,11,no,6,"Chiken pox ,cold hair fall,scabies",filter,no,9,doctor,11,3,veg,5,body pain,no,o+
+Kiran,Female,19,student,vit,No,No,11,no,6,"Chiken pox ,cold hair fall,scabies",filter,no,9,doctor,11,3,veg,5,body pain,no,o+
+Sapna,Female,19,student,vit,No,No,11,yes,1,"Chiken pox ,cold hair fall,scabies",filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,B+
+Alka,Female,19,student,vit,No,No,11,yes,0,seasonal,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Rekha,Female,18,student,vit,No,No,11,yes,2,no,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Mansi,Female,19,student,vit,No,No,3,yes,2,seasonal,filter,no,12,doctor,11,3,veg,5,cold.cough,no,B+
+Pallavi,Female,20,student,vit,No,No,3,yes,4,seasonal,filter,no,9,doctor,11,7,mix,5,"cold,",fever,A+
+Bhavna,Female,20,student,vit,No,No,4,yes,6,seasonal,filter,no,9,doctor,0,3,veg,5,headache,fewer,O+
+Sheetal,Female,19,student,vit,No,No,4,yes,2,seasonal,filter,no,12,college doctor,11,3,mix,8,headache cough,asthma,B+
+Nupur,Female,20,student,vit,No,No,11,yes,2,seasonal,filter,no,4,doctor,11,3,veg,5,headache,no,B+
+Charu,Female,20,student,vit,No,No,4,yes,2,seasonal,filter,no,9,doctor,11,3,veg,5,body pain,no,o+
+Rajat,Male,20,student,kothri kalan,No,No,14,once a week,2,flu,yes,very less,0,low access,10,5,veg,3 litres,"loose motion,headache",migrane,B+
+Nishant,Male,19,student,kothri kalan,No,No,10,very low,2,"chiken pox, flu,",yes,very less,5,low access,7,3,veg,4 litres,"headache,memory loss",alzheimers,O+
+Pranav,Male,20,student,kothri kalan,No,No,2,4 times in week,2,"chicken pox, flu",yes,very less,0,low access,7,3,veg,4 litres,cold.cough,no,B+
+Aryan,Male,19,student,kothri kalan,No,No,10,5 times in week,2,"chicken pox, flu, malaria",yes,very less,6,low access,2,3,nonveg,2 litres,"cold,",fever,AB+
+ameya,Male,19,student,kothri kalan,No,No,13,once in week,2,"food poisoning, cough, cold",yes,very less,0,low access,13,3,nonveg,3 litres,headache,fewer,A+
+devansh,Male,19,student,kothri kalan,No,No,0,3 times in week,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3.5 litres,body pain,no,O+
+harshit,Male,19,student,kothri kalan,No,No,9,once a week,3,"chicken pox, flu, malaria, food poisoning",yes,very less,0,low access,10,3,veg,4 litres,stomach pain,stomach pain,O+
+Ravi,Male,19,student,kothri kalan,No,No,7,none,2,"chicken pox, flu, malaria, food poisoning",yes,very less,1,low access,4,3,non veg,3 litres,"body main , weaknees",no,b+
+Ajay,Male,18,student,kothri kalan,No,No,6,once in week,2,"food poisoning, cough, cold",yes,very less,0,low access,2,1,non veg,3 lites,haeadach,no,b-
+laksh,Male,19,student,kothri kalan,No,No,1,once in week,2,"food poisoning, chicken pox",yes,very less,0,low access/bad service,7,3,veg,4 litres,cough sneez weaknees,no,b+
+Harsh,Male,20,student,kothri kalan,No,No,13,none,3,"chicken pox, viral fever, flu",yes,very less,7,moderate,7,3,veg,5 litres,cough cold,no,AB+
+Shivam,Male,20,student,kothri kalan,No,No,13,none,3,"chicken pox, viral fever, flu",yes,very less,0,below average,12,3,veg,4 litres,"body pain,headache, eye",no,a+
+Ayush,Male,19,student,kothri kalan,No,No,1,3 times in week,5,"chicken pox, viral fever, flu",yes,very less,8,bad,1,3,veg,2.5 litres,weakness,no,a+
+Tejas,Male,20,student,kothri kalan,No,No,8,none,2,"chicken pox, viral fever, flu",yes,very less,0,below average,5,3,non veg,4 litres,"body pain,",no,b+
+Veer,Male,19,student,kothri kalan,No,No,13,twice in week,2,"chicken pox, viral fever, flu",yes,very less,0,below average,10,3,veg,3 litres,weakness,no,o+
+Abhiram,Male,19,student,vit,No,No,11,no,2,"chicken pox, fever",filter,no,0,average,9,3,veg,4 litres,"body pain ,weakness",no,ab+
+Rajesh,Male,38,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+hariom,Male,22,shopkeeper,kothri,No,No,11,no,4,normal,normal,normal,10,normal,14,7,mix,5,"normal,heart pain",no,o+
+rohit,Male,24,shopkeeper,kothri,No,No,11,no,4,no,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,b+
+anurag,Male,49,mess incharge,Bhopal,No,No,3,no,2,seasonal,filter,no,9,hospital,11,3,veg,5,no,no,a+
+chetan singh,Male,30,supervisor house keeping,asta,No,No,4,yes,6,seasonal,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+abhijeet mewada,Male,30,supervisor house keeping,asta,No,No,4,no,6,seasonal,mix,no,9,village,9,2,mix,4,weakness,no,AB+
+divan anjan maity,Male,29,Hostel supervisor,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+akilesh vishvakarma,Male,37,Hostel supervisor,ichawar,No,No,11,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+sanjay kumar jain,Male,38,Hostel supervisor,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b+
+dheeraj,Male,42,hostel admin,vit,No,No,3,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+vishal,Male,21,guard,astha,No,No,3,miner,0,seasonal,borewell,no,9,clinic,11,3,veg,5,cough cold,no,AB+
+azhar,Male,28,guard,kotri,No,No,4,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+ankit,Male,21,mess guard,kothri,No,No,11,yes,2,seasonal,mix,no,9,village,0,4,veg,3,weakness,no,ab+
+pradumman,Male,32,mess guard,lala khedi,Yes,Yes,11,no,4,seasonal,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o+
+ritesh,Male,24,mess guard,kothri,No,No,11,no,6,seasonal,mix,no,9,Village,11,3,mix,7,"body pain,headache, eye",no,o+
+shekhar,Male,25,hostel guard5,gaon,No,No,11,no,2,seasonal,mix,no,9,village,9,3,mix,5,weakness,no,a-
+vishal,Male,18,house keeping,kothri,No,No,11,no,2,seasonal,mix,no,9,hospital,3,3,mix,5,"body pain,headache, eye",no,a+
+parvind,Male,30,house keeping,ratanpur,No,No,11,no,2,seasonal,borewell,no,9,hospital,6,3,veg,4,weakness,no,a+
+dharam singhg,Male,30,house keeping,kothri,Yes,Yes,11,no,2,seasonal,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a+
+vijay,Male,40,house keeping,gawakheda,No,No,11,no,2,seasonal,mix,no,9,Village,9,3,mix,7,no,no,ab+
+ajay,Male,22,"daily wage worker,farmer",golukheda,No,No,11,no,2,seasonal,borewell,no,9,village,6,3,mix,6,body pain,no,o+
+ujjwaal,Male,27,"daily wage worker,farmer",kothri,No,No,3,no,2,seasonal,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a+
+jayram,Male,23,"daily wage worker,farmer",kothri,No,No,4,no,4,seasonal,borewell,no,9,hospital,6,3,veg,5,weakness,no,o-
+kaushal,Male,34,worker,kothri,Yes,Yes,4,no,6,seasonal,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B+
+daksh,Male,25,worker,kratan pur,No,Yes,4,no,2,seasonal,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB+
+suresh patil,Male,47,automobine manager,aehemdabad,No,No,11,no,2,seasonal,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b+
+Arjun gawai,Male,50,gov officer,"sakharkherda ,MH",No,No,11,no,2,seasonal,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Binod kumar thakur,Male,50,gov officer,gorakhpur,No,No,3,no,2,seasonal,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+harsh,Male,29,student,vit,Yes,No,3,no,6,seasonal,filter,no,12,doctor,11,3,veg,5,cold.cough,no,A+
+yug,Male,18,student,vit,No,No,4,yes,2,"Chiken pox ,cold hair fall,scabies",filter,no,9,doctor,11,7,mix,5,"cold,",fever,o+
+astitva,Male,19,student,vit,No,No,11,no,4,pimples,filter,no,9,doctor,0,3,veg,5,headache,fewer,B+
+sparsh,Male,19,student,vit,No,No,11,yes,1,"Chiken pox ,cold hair fall,scabies",filter,no,12,college doctor,11,3,mix,8,headache cough,asthma,B+
+aniket,Male,19,student,vit,No,No,11,yes,2,"Chiken pox ,cold hair fall,scabies",filter,no,4,doctor,11,3,veg,5,headache,no,O+
+kartik rajput,Male,19,student,vit,No,No,11,no,6,"Chiken pox ,cold hair fall,scabies",filter,no,9,doctor,11,3,veg,5,body pain,no,o+
+Aditya,Male,19,student,vit,No,No,11,yes,1,"Chiken pox ,cold hair fall,scabies",filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b+
+Rahul,Male,20,student,vit,No,No,11,yes,0,seasonal,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Karan,Male,19,student,vit,No,No,11,yes,2,no,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Siddharth,Male,19,student,vit,No,No,3,yes,2,seasonal,filter,no,12,doctor,11,3,veg,5,cold.cough,no,A+
+Ankit,Male,19,student,vit,No,No,3,yes,4,seasonal,filter,no,9,doctor,11,7,mix,5,"cold,",fever,A+
+Vikram,Male,18,student,vit,No,No,4,yes,6,seasonal,filter,no,9,doctor,0,3,veg,5,headache,fewer,B+
+Arjun,Male,19,student,vit,No,No,4,yes,2,seasonal,filter,no,12,college doctor,11,3,mix,8,headache cough,asthma,O+
+Rohan,Male,19,student,vit,No,No,11,yes,2,seasonal,filter,no,4,doctor,11,3,veg,5,headache,no,B+
+Manish,Male,19,student,vit,No,No,4,yes,2,seasonal,filter,no,9,doctor,11,3,veg,5,body pain,no,o+
+Abhishek,Male,19,student,vit,No,No,5,yes,2,seasonal,filter,medium,9,pvt hospital,9,3,veg,5,very less,"good, overthinking",b+
+Nikhil,Male,19,student,vit,No,No,5,yes,2,seasonal,filter,no,11,pvt hospital,11,3,veg,6,very less,moderate,ab+
+Pranav,Male,19,student,vit,No,No,11,yes,2,seasonal,filter,medium,11,clinic,9,3,veg,4,very less,good,B+
+Sameer,Male,19,student,vit,No,No,11,yes,2,seasonal,filter,no,12,doctor,9,3,veg,6,very less,"moderate, anxiety",A+
+Sanjay,Male,19,student,vit,No,No,11,yes,4,seasonal,filter,no,9,doctor,6,3,veg,5,very less,good,AB+
+Rohit,Male,18,student,vit,No,No,3,yes,6,seasonal,filter,no,9,doctor,3,3,veg,7,very less,good,a+
+Ajay,Male,19,student,vit,No,No,4,yes,2,seasonal,filter,no,12,college doctor,3,3,veg,8,very less,good,b+
+Deepak,Male,20,student,vit,No,No,4,no,2,seasonal,filter,no,4,doctor,9,3,veg,4,very less,"good, overthinking, stress",b+
+Rajesh,Male,20,student,vit,No,No,4,yes,2,seasonal,filter,no,9,doctor,11,3,veg,4,very less,good,O+
+Amit,Male,19,student,vit,No,No,11,no,2,seasonal,filter,medium,9,pvt hospital,6,3,mix,6,very less,good,b+
+Anil,Male,20,student,vit,No,No,11,yes,6,seasonal,filter,no,11,pvt hospital,6,3,mix,6,very less,"moderate, stress",b+
+Suresh,Male,20,student,vit,No,No,3,yes,2,"Chiken pox ,cold hair fall,scabies",filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Vijay,Male,19,student,vit,No,No,3,yes,4,pimples,filter,no,12,doctor,11,3,veg,5,cold.cough,no,A+
+Mohit,Male,20,student,vit,No,No,4,yes,1,"Chiken pox ,cold hair fall,scabies",filter,no,9,doctor,11,7,mix,5,"cold,",fever,A+
+Harish,Male,19,student,vit,No,No,11,no,2,"Chiken pox ,cold hair fall,scabies",filter,no,9,doctor,9,3,veg,5,headache,fewer,A+
+Gaurav,Male,19,student,vit,No,No,11,yes,6,"Chiken pox ,cold hair fall,scabies",filter,no,12,college doctor,11,3,mix,8,headache cough,asthma,B+
+Ashish,Male,19,student,vit,No,No,11,yes,4,seasonal,filter,no,4,doctor,11,3,veg,5,headache,no,B+
+Tarun,Male,19,student,vit,No,No,11,yes,6,seasonal,filter,no,9,doctor,11,3,veg,5,body pain,no,o+
+Naveen,Male,19,student,vit,No,No,11,yes,2,seasonal,filter,medium,11,clinic,9,3,veg,4,very less,good,O+
+Vinay,Male,18,student,vit,No,No,11,yes,2,seasonal,filter,no,12,doctor,9,3,veg,6,very less,"moderate, anxiety",B+
+Ravindra,Male,19,student,vit,No,No,11,yes,2,seasonal,filter,no,9,doctor,6,3,veg,5,very less,good,A+
+Aakriti,Female,50,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Aarav,Male,21,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Aashish,Male,22,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Abhinav,Male,23,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Aditya,Male,24,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Ajay,Male,25,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Akash,Male,26,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Akshay,Male,27,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Ankit,Male,28,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Ankur,Male,29,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Ansh,Male,30,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Arjun,Male,31,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Ashok,Male,32,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Atul,Male,33,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Ayush,Male,34,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Bharat,Male,35,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Bhavya,Male,36,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Chetan,Male,37,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Daksh,Male,38,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Deepak,Male,39,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Dev,Male,40,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Dhruv,Male,41,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Divyansh,Male,42,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Gaurav,Male,43,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Harsh,Male,44,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Himanshu,Male,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Hitesh,Male,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Ishaan,Male,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Jaideep,Male,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Jayant,Male,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Jatin,Male,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Jitesh,Male,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Kabir,Male,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Karan,Male,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Kunal,Male,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Lakshay,Male,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Manav,Male,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Manish,Male,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Mayank,Male,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Mohit,Male,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Mukesh,Male,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Naveen,Male,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Neeraj,Male,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Nikhil,Male,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Nishant,Male,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Om,Male,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Parth,Male,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Pranav,Male,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Prateek,Male,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Pratik,Male,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Praveen,Male,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Prem,Male,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Rahul,Male,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Raj,Male,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Rajat,Male,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Rakesh,Male,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Raman,Male,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Ravi,Male,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Rishabh,Male,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Rohan,Male,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Rohit,Male,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Sachin,Male,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Sahil,Male,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Sandeep,Male,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Sanjay,Male,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Sanket,Male,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Saurabh,Male,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Shashank,Male,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Shekhar,Male,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Shivam,Male,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Shubham,Male,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Siddharth,Male,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Sumit,Male,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Sunny,Male,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Suresh,Male,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Tarun,Male,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Tejas,Male,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Utkarsh,Male,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Varun,Male,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Vikas,Male,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Vinay,Male,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Vineet,Male,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Vishal,Male,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Vivek,Male,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Yash,Male,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Yogesh,Male,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Aakriti,Female,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Aanchal,Female,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Aditi,Female,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Aishwarya,Female,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Akansha,Female,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Akriti,Female,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Alisha,Female,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Amrita,Female,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Anamika,Female,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Anjali,Female,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Ankita,Female,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Anu,Female,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Anushka,Female,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Apurva,Female,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Aradhana,Female,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Arpita,Female,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Ashima,Female,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Avantika,Female,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Avni,Female,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Bhavna,Female,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Bhumika,Female,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Chhavi,Female,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Damini,Female,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Deepika,Female,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Devika,Female,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Disha,Female,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Divya,Female,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Ekta,Female,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Garima,Female,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Geetika,Female,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Gauri,Female,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Gunjan,Female,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Hina,Female,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Isha,Female,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Jaya,Female,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Jyoti,Female,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Kajol,Female,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Kanika,Female,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Kavita,Female,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Khushi,Female,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Kriti,Female,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Latika,Female,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Madhuri,Female,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Mahima,Female,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Malika,Female,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Meena,Female,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Megha,Female,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Misha,Female,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Monika,Female,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Muskan,Female,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Naina,Female,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Nandini,Female,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Neha,Female,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Nikita,Female,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Nisha,Female,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Pooja,Female,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Prachi,Female,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Pratibha,Female,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Priya,Female,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Priyanka,Female,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Purvi,Female,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Radha,Female,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Rani,Female,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Rati,Female,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Reena,Female,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Ria,Female,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Ritu,Female,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Riya,Female,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Saloni,Female,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Samiksha,Female,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Sangeeta,Female,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Sanya,Female,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Sarika,Female,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Seema,Female,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Shalini,Female,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Shikha,Female,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Shivani,Female,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Shraddha,Female,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Shruti,Female,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Simran,Female,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Smriti,Female,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Sneha,Female,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Sonia,Female,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Sonam,Female,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Sonali,Female,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Surbhi,Female,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Swati,Female,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Tanvi,Female,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Tanuja,Female,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Tarini,Female,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Tina,Female,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Usha,Female,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Vaishnavi,Female,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Vandana,Female,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Vani,Female,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Vidisha,Female,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Vidya,Female,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Yamini,Female,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Yashika,Female,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Yashvi,Female,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Aaditya,Male,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Aarav,Male,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Abhay,Male,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Abhishek,Male,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Adarsh,Male,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Ajit,Male,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Akshat,Male,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Aman,Male,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Anand,Male,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Animesh,Male,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Anirudh,Male,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Ankit,Male,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Anmol,Male,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Anuj,Male,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Arnav,Male,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Arvind,Male,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Ashish,Male,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Ayushman,Male,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Balram,Male,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Bhushan,Male,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Bipin,Male,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Chandan,Male,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Dinesh,Male,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Ganesh,Male,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Gagan,Male,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Gaurav,Male,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Harish,Male,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Hemant,Male,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Inder,Male,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Jai,Male,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Jatin,Male,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Jitendra,Male,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Kailash,Male,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Kanak,Male,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Kartik,Male,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Kiran,Male,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Krishna,Male,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Lalit,Male,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Mahesh,Male,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Manoj,Male,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Naveen,Male,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Naveen,Male,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Niranjan,Male,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Nirmal,Male,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Omkar,Male,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Pankaj,Male,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Parag,Male,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Paras,Male,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Piyush,Male,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Prateek,Male,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Prem,Male,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Punit,Male,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Rajesh,Male,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Ranjan,Male,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Rakesh,Male,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Ravindra,Male,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Ritesh,Male,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Rohan,Male,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Sandeep,Male,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Sanjay,Male,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Santosh,Male,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Saurav,Male,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Shailesh,Male,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Shantanu,Male,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Siddhant,Male,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Subhash,Male,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Sudhir,Male,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Sushil,Male,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Swaraj,Male,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Tanish,Male,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Tanmay,Male,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Uday,Male,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Varun,Male,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Vikas,Male,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Vinod,Male,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Yogendra,Male,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Aditi,Female,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Akshara,Female,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Amisha,Female,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Anamika,Female,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Anika,Female,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Anjana,Female,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Anshika,Female,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Anuja,Female,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Anushka,Female,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Aparna,Female,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Aradhana,Female,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Arti,Female,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Ashwariya,Female,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Bhavika,Female,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Bhawna,Female,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Chanchal,Female,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Chitra,Female,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Damini,Female,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Darshana,Female,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Debasmita,Female,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Deepa,Female,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Dipti,Female,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Disha,Female,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Divya,Female,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Ekta,Female,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Gargi,Female,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Garima,Female,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Gitanjali,Female,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Gunjan,Female,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Hema,Female,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Indu,Female,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Ishita,Female,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Janvi,Female,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Jigyasa,Female,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Juhi,Female,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Kajal,Female,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Kalpana,Female,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Kanishka,Female,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Kiran,Female,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Komal,Female,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Lakshmi,Female,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Madhulika,Female,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Manisha,Female,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Maithili,Female,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Mamta,Female,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Mansi,Female,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Meenakshi,Female,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Minakshi,Female,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Mohini,Female,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Muskaan,Female,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Namrata,Female,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Nandita,Female,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Nidhi,Female,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Naina,Female,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Pooja,Female,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Pooja,Female,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Prachi,Female,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Prerna,Female,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Priyanka,Female,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Rachna,Female,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Radhika,Female,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Rashmi,Female,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Ritu,Female,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Rukmini,Female,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Sadhana,Female,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Sagarika,Female,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Sakshi,Female,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Saloni,Female,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Samiksha,Female,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Sangeeta,Female,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Sangeeta,Female,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Shikha,Female,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Shivangi,Female,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Shivani,Female,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Shobha,Female,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Shradha,Female,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Simran,Female,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Smita,Female,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Sonam,Female,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Surbhi,Female,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Sweta,Female,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Tanushree,Female,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Tanuja,Female,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Tejaswini,Female,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Trupti,Female,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Uma,Female,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Vaishali,Female,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Vaishnavi,Female,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Vibha,Female,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Vidhi,Female,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Yogita,Female,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Abhishek,Male,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Adarsh,Male,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Aditya,Male,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Ajit,Male,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Akshay,Male,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Aman,Male,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Amit,Male,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Ankit,Male,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Ankur,Male,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Arjun,Male,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Ashish,Male,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Atul,Male,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Ayush,Male,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Bharat,Male,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Chetan,Male,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Deepak,Male,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Dinesh,Male,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Gaurav,Male,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Harsh,Male,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Himanshu,Male,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Hitesh,Male,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Ishaan,Male,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Jaideep,Male,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Jatin,Male,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Karan,Male,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Kunal,Male,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Lakshay,Male,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Manish,Male,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Mayank,Male,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Mohit,Male,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Naveen,Male,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Nikhil,Male,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Nishant,Male,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Pankaj,Male,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Prateek,Male,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Pratik,Male,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Praveen,Male,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Prem,Male,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Rahul,Male,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Rajat,Male,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Rakesh,Male,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Ravi,Male,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Rishabh,Male,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Rohit,Male,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Sachin,Male,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Sahil,Male,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Sandeep,Male,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Sanjay,Male,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Shubham,Male,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Siddharth,Male,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Sumit,Male,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Tarun,Male,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Vikas,Male,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Vinay,Male,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Vishal,Male,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Vivek,Male,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Aakriti,Female,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Aditi,Female,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Aishwarya,Female,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Akansha,Female,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Anjali,Female,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Ankita,Female,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Anushka,Female,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Divya,Female,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Garima,Female,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+Jyoti,Female,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+Kanika,Female,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+Kriti,Female,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+Megha,Female,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+Muskan,Female,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+Neha,Female,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+Nisha,Female,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+Pooja,Female,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+Priya,Female,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+Priyanka,Female,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+Ritu,Female,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+Riya,Female,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+Saloni,Female,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+Shalini,Female,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+Shikha,Female,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+Shivani,Female,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+Shruti,Female,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
+Simran,Female,24,worker,kratan pur,Yes,Yes,11,no,2,s,borewell,no,12,village,6,3,veg,6,"headache,memory loss",alzheimers,AB-
+Sneha,Female,25,"daily wage worker,farmer",kothri,No,No,3,no,2,s,borewell,no,9,hospital,6,3,veg,5,"body pain,",no,a-
+Sonali,Female,26,guard,kotri,No,No,5,no,2,no,borewell,no,9,hospital,11,3,mix,4,body pain,no,O+
+Surbhi,Female,27,student,vit,No,No,11,no,6,s,filter,no,12,doctor,11,3,veg,5,cold.cough,no,AB+
+Swati,Female,28,h.s,hostel,No,No,4,no,2,skin,filter,no,2,clinic,9,8,mix,5-Jan,stomach pain,stomach pain,O+
+Tanvi,Female,29,house keeping,ratanpur,No,No,4,no,2,s,borewell,no,9,hospital,6,3,veg,4,weakness,no,a-
+Yashika,Female,30,supervisor house keeping,asta,No,No,3,yes,6,s,borewell,no,9,hospital,11,3,mix,4,weakness,no,b+
+User_483,Male,31,supervisor house keeping,asta,No,No,3,no,6,s,mix,no,9,village,9,2,mix,4,weakness,no,b+
+User_484,Male,32,house keeping,kothri,Yes,Yes,4,no,2,s,borewell,no,9,doctor,11,3,mix,7,"body pain ,weakness",no,a-
+User_485,Male,33,mess g,lala khedi,Yes,Yes,11,no,4,s,mix,no,9,Village,3,4,mix,5,"body pain,headache, eye",no,o-
+User_486,Male,34,worker,kothri,Yes,Yes,4,no,6,s,borewell,no,9,village,9,3,mix,5,"loose motion,headache",migrane,B-
+User_487,Male,35,h.s,ichawar,No,No,4,no,2,hygene problems,normal,no,3,home treatment,6,3,veg,8,"body main , weaknees",no,b+
+User_488,Male,36,h.s,vit,No,No,11,no,0,"Chiken pox ,cold hair fall,scabies",filter,no,9,family doctor,6,0,veg,3,haeadach,no,b-
+User_489,Male,37,shopkeeper,kothri kalan,No,No,12,none,2,"flu, food poisoning",moderate/average,very less,0,low,8,3,veg,4 litres,body pain,no,a-
+User_490,Male,38,house keeping,gawakheda,No,No,11,no,2,s,mix,no,9,Village,9,3,mix,7,no,no,ab+
+User_491,Male,39,hostel admin,vit,No,No,4,no,1,"Chiken pox ,cold hair fall,scabies",filter,no,11,doctor vit,6,6,mix,3,cough sneez weaknees,no,b+
+User_492,Male,40,automobine manager,aehemdabad,No,No,11,no,2,s,filter,medium,9,pvt hospital,6,3,mix,6,"eye pain , Headache,weakness",daibetes,b-
+User_493,Male,41,mess incharge,Bhopal,No,No,11,no,2,s,filter,no,9,hospital,11,3,veg,5,no,no,a+
+User_494,Male,42,gov officer,"sakharkherda ,MH",No,No,11,no,2,s,filter,no,11,pvt hospital,6,3,mix,6,eye oain body oain,acidity,b+
+User_495,Male,43,gov officer,gorakhpur,No,No,11,no,2,s,filter,medium,11,clinic,11,3,mix,6,body pain,no,ab+
+User_496,Male,20,student,kothri,No,No,11,yes,2,"chicken pox, flu",yes,very less,0,low access,10,3,nonveg,3 litres,cold.cough,no,O+
+User_497,Male,21,house keeping,vit,No,No,5,no,2,s,mix,no,9,doctor,11,3,mix,4,weakness,no,a-
+User_498,Male,22,shopkeeper,kothri,No,No,11,no,4,s,borewell,no,11,clinic,6,3,veg,6,"body pain ,weakness",no,o-
+User_499,Male,23,mess g,gaon,No,No,3,no,2,s,mix,no,9,village,9,3,mix,5,weakness,no,a-
