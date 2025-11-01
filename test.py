@@ -8,8 +8,6 @@ visualise = st.Page('health.py', title='Pencapaian Akademik Pelajar', icon=':mat
 
 home = st.Page('home.py', title='HomePage', default=True, icon=':material/school:')
 
-
-
 pg = st.navigation (
     {
         "Menu" : [home, visualise]
