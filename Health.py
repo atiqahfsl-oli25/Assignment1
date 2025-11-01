@@ -71,8 +71,6 @@ fig3.update_layout(
 
 st.plotly_chart(fig3, use_container_width=True)
 
-
-
 # --- Visualization 4: Average Health Conditions by Age Group ---
 st.subheader("4️⃣ Average Current Health Conditions by Age Group")
 health_conditions_by_age = df.groupby('Age Group')['Current Health Conditions'].mean().reset_index()
