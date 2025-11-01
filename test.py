@@ -1,18 +1,19 @@
-import streamlit as st
+ import streamlit as st 
 
 st.set_page_config(
-    page_title="Online Learning Survey",
-    layout="wide"
+    page_title="Student Survey"
 )
 
-# Define your pages
-home = st.Page("home.py", title="Homepage", icon=":material/home:", default=True)
-page1 = st.Page("Health.py", title="Kepuasan Pelajar Dalam Pembelajaran", icon=":material/thumb_up_off_alt:")
+visualise = st.Page('Health.py', title='Pencapaian Akademik Pelajar', icon=':material/school:')
 
-# Group pages into navigation
-pg = st.navigation({
-    "Menu": [home, page1, page2]
-})
+home = st.Page('home.py', title='HomePage', default=True, icon=':material/school:')
 
-# Run navigation
+
+
+pg = st.navigation (
+    {
+        "Menu" : [home, visualise]
+    }
+)
+
 pg.run()
