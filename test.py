@@ -4,7 +4,7 @@ st.set_page_config(
     page_title="Student Survey"
 )
 
-visualise = st.Page('health.py', title='Pencapaian Akademik Pelajar', icon=':material/school:')
+visualise = st.Page('Health.py', title='Pencapaian Akademik Pelajar', icon=':material/school:')
 
 home = st.Page('home.py', title='HomePage', default=True, icon=':material/school:')
 
