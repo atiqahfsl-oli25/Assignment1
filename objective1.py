@@ -23,7 +23,7 @@ fig1.update_layout(
 )
 st.plotly_chart(fig1, use_container_width=True)
 
-st.subheader("💤 3. Mental Health Issue Frequency vs Sleep Issues")
+st.subheader("💤 2. Mental Health Issue Frequency vs Sleep Issues")
 # Group and average data by Sleep Issues and Gender
 sleep_health_mean = df.groupby(['Sleep Issues', 'Gender'])['Mental Health Frequency'].mean().reset_index()
 
