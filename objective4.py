@@ -1,13 +1,12 @@
 import streamlit as st
+import pandas as pd
 import plotly.express as px
 
+st.title("🫀 Objective 4: Chronic Health Condition Insights")
 
-def visualize_health_conditions(df):
-st.header("👥 Average Health Conditions by Age Group")
+url = "https://raw.githubusercontent.com/yourusername/yourrepo/main/dataframe.csv"
+df = pd.read_csv(url)
 
-
-health_conditions_by_age = df.groupby('Age Group')['Current Health Conditions'].mean().reset_index()
-fig = px.line(health_conditions_by_age, x='Age Group', y='Current Health Conditions', markers=True,
-title='Average Current Health Conditions by Age Group',
-color_discrete_sequence=px.colors.qualitative.Safe)
+fig = px.pie(df, names="Health_Condition", title="Distribution of Health Conditions")
 st.plotly_chart(fig, use_container_width=True)
+
