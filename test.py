@@ -1,18 +1,13 @@
-# test.py
-import streamlit as st 
+import pandas as pd
+from objective2 import preprocess_data
 
-st.set_page_config(page_title="Student Survey", page_icon="🎓")
 
-# Homepage content
-st.title("🏠 Home Page — Student Survey")
-
-st.markdown("""
-Welcome to the **Student Health & Lifestyle Dashboard**!  
-Use the sidebar to navigate between pages.
-""")
-
-# You can add any homepage visuals or info here
-st.image("https://raw.githubusercontent.com/fakhitah3/FHPK-TVET/main/3u1i.jpeg", use_container_width=True)
-
-streamlit run test.py
-
+def test_preprocess_data():
+sample = pd.DataFrame({
+'Gender': ['Male', 'Female', None],
+'Age Group': ['18-25', '26-35', '18-25'],
+'Current Health Conditions': [2, None, 3]
+})
+cleaned = preprocess_data(sample)
+assert cleaned.isna().sum().sum() == 0
+assert 'Gender' in cleaned.columns
