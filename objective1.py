@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title("Objective 1: Mental Health Affected by Many Factors")
+st.title("Objective 1: to investigae mental health affected by many factors")
 
 # --- Load Data ---
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv'  
