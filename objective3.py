@@ -2,39 +2,74 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title("🧠 Objective 3: Mental Health & Lifestyle")
+st.title("🧠 Objective 3: Food and Water Consumption")
 
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv' 
 df = pd.read_csv(url)
 
-st.subheader("💤 3. Mental Health Issue Frequency vs Sleep Issues")
+# --- Pie Charts for Diet Type by Gender ---
+    st.subheader("🥗 Diet Type Distribution by Gender")
 
-# Convert to numeric safely
-df["Mental_Health_Frequency"] = pd.to_numeric(df["Mental Health Frequency"], errors="coerce")
+    # Separate data
+    df_male = df[df['Gender'] == 'Male']
+    df_female = df[df['Gender'] == 'Female']
 
-sleep_health_mean = (
-    df.groupby(["Sleep Issues", "Gender"])["Mental Health Frequency"].mean().reset_index()
-)
+    # Count diet types
+    diet_counts_male = df_male['Diet Type'].value_counts().reset_index()
+    diet_counts_male.columns = ['Diet Type', 'Count']
 
-fig3 = px.line(
-    sleep_health_mean,
-    x="Sleep Issues",
-    y="Mental Health Frequency",
-    color="Gender",
-    markers=True,
-    title="Mental Health Issue Frequency vs Sleep Issues",
-    color_discrete_sequence=px.colors.qualitative.Set2
-)
+    diet_counts_female = df_female['Diet Type'].value_counts().reset_index()
+    diet_counts_female.columns = ['Diet Type', 'Count']
 
-fig3.update_traces(line=dict(width=2), marker=dict(size=8, symbol="circle"))
-fig3.update_layout(
-    xaxis_title="Sleep Issues",
-    yaxis_title="Frequency of Mental Health Issues",
-    legend_title="Gender",
-    template="simple_white",
-    hovermode="x unified",
-    plot_bgcolor="rgba(0,0,0,0)",
-    xaxis=dict(showgrid=True, gridwidth=1, gridcolor="lightgray"),
-    yaxis=dict(showgrid=True, gridwidth=1, gridcolor="lightgray")
-)
-st.plotly_chart(fig3, use_container_width=True)
+    # Create columns for side-by-side charts
+    col1, col2 = st.columns(2)
+
+    with col1:
+        fig_male = px.pie(
+            diet_counts_male,
+            names='Diet Type',
+            values='Count',
+            title='Diet Type Distribution for Male',
+            color_discrete_sequence=px.colors.qualitative.Pastel
+        )
+        st.plotly_chart(fig_male, use_container_width=True)
+
+    with col2:
+        fig_female = px.pie(
+            diet_counts_female,
+            names='Diet Type',
+            values='Count',
+            title='Diet Type Distribution for Female',
+            color_discrete_sequence=px.colors.qualitative.Pastel
+        )
+        st.plotly_chart(fig_female, use_container_width=True)
+
+    # --- Line Plot for Average Water Intake by Age Group ---
+    st.subheader("💧 Average Water Intake per Day by Age Group")
+
+    average_water_intake_by_age = (
+        df.groupby('Age Group')['Water Intake per Day']
+        .mean()
+        .reset_index()
+        .sort_values('Age Group')
+    )
+
+    fig_line = px.line(
+        average_water_intake_by_age,
+        x='Age Group',
+        y='Water Intake per Day',
+        markers=True,
+        title='Average Water Intake per Day by Age Group',
+        color_discrete_sequence=['#1f77b4']
+    )
+    fig_line.update_traces(line=dict(width=3))
+    fig_line.update_layout(
+        xaxis_title='Age Group',
+        yaxis_title='Average Water Intake (litres)',
+        template='plotly_white'
+    )
+
+    st.plotly_chart(fig_line, use_container_width=True)
+
+else:
+    st.info("👆 Please upload your dataset to begin visualizing.")
