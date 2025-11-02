@@ -4,19 +4,48 @@ import plotly.express as px
 
 st.title("Objective 3: Food and Water Consumption")
 
+# --- Load Data ---
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv' 
 df = pd.read_csv(url)
 
-import streamlit as st
-import plotly.express as px
-
-import streamlit as st
-import plotly.express as px
-
-# --- Title ---
-st.title("🍽️ 1.Diet Type Distribution by Gender")
+# --- Standardize Diet Type ---
 df['Diet Type'] = df['Diet Type'].replace(['nonveg', 'non veg', 'non-veg'], 'none veg')
 
+# --- Summary Section ---
+st.subheader("📋 Summary Overview")
+
+# 1️⃣ Diet Type by Gender
+diet_counts_male = df[df['Gender']=='Male']['Diet Type'].value_counts()
+diet_counts_female = df[df['Gender']=='Female']['Diet Type'].value_counts()
+
+# 2️⃣ Average Water Intake
+avg_water_by_age = df.groupby('Age Group')['Water Intake per Day'].mean()
+
+# 3️⃣ Fast Food Consumption Proportion
+fastfood_prop = pd.crosstab(df['Diet Type'], df['Fast Food Consumption Frequency']).apply(lambda r: r/r.sum(), axis=1)
+
+# Display Summary Boxes
+st.markdown("### Diet Type by Gender")
+col1, col2 = st.columns(2)
+with col1:
+    st.markdown("**Male**")
+    for diet, count in diet_counts_male.items():
+        st.metric(label=diet, value=count)
+with col2:
+    st.markdown("**Female**")
+    for diet, count in diet_counts_female.items():
+        st.metric(label=diet, value=count)
+
+st.markdown("### Average Water Intake by Age Group")
+for age_group, avg in avg_water_by_age.items():
+    st.metric(label=age_group, value=f"{avg:.2f} litres")
+
+st.markdown("### Fast Food Consumption Proportion by Diet Type")
+for diet_type, row in fastfood_prop.iterrows():
+    st.markdown(f"**{diet_type}**: " + ", ".join([f"{freq}: {prop:.0%}" for freq, prop in row.items()]))
+
+# --- 1. Diet Type Distribution by Gender ---
+st.subheader("🍽️ 1. Diet Type Distribution by Gender")
 df_male = df[df['Gender'] == 'Male']
 df_female = df[df['Gender'] == 'Female']
 
@@ -40,7 +69,13 @@ with col1:
 with col2:
     st.plotly_chart(fig_female, use_container_width=True)
 
-st.subheader("💧 2.Average Water Intake per Day by Age Group")
+st.markdown("""
+**Interpretation:**  
+The pie charts show the distribution of diet types by gender. This helps identify the proportion of male and female respondents following vegetarian, none-veg, or mixed diets. It highlights dietary preferences that may impact nutritional health.
+""")
+
+# --- 2. Average Water Intake by Age Group ---
+st.subheader("💧 2. Average Water Intake per Day by Age Group")
 average_water_intake_by_age = df.groupby('Age Group')['Water Intake per Day'].mean().reset_index()
 fig = px.line(
     data_frame=average_water_intake_by_age,
@@ -48,7 +83,7 @@ fig = px.line(
     y='Water Intake per Day',
     markers=True,
     title='Average Water Intake per Day by Age Group',
-    color_discrete_sequence=['#1f77b4']  # Blue color tone
+    color_discrete_sequence=['#1f77b4']
 )
 fig.update_layout(
     xaxis_title='Age Group',
@@ -59,14 +94,15 @@ fig.update_layout(
 fig.update_xaxes(tickangle=45)
 st.plotly_chart(fig, use_container_width=True)
 
-st.subheader("🍔 3.Proportion of Fast Food Consumption Frequency by Diet Type")
-# Create a contingency table (cross-tabulation)
+st.markdown("""
+**Interpretation:**  
+The line chart shows how average daily water intake varies by age group. It helps identify age groups with insufficient hydration and guides interventions for promoting healthy water consumption habits.
+""")
+
+# --- 3. Proportion of Fast Food Consumption Frequency by Diet Type ---
+st.subheader("🍔 3. Proportion of Fast Food Consumption Frequency by Diet Type")
 contingency_table = pd.crosstab(df['Diet Type'], df['Fast Food Consumption Frequency'])
-
-# Normalize to get proportions (percentages)
 contingency_prop = contingency_table.apply(lambda r: r / r.sum(), axis=1).reset_index()
-
-# Melt the table for Plotly (long format)
 contingency_melted = contingency_prop.melt(id_vars='Diet Type', 
                                            var_name='Fast Food Consumption Frequency', 
                                            value_name='Proportion')
@@ -89,8 +125,7 @@ fig.update_layout(
 fig.update_yaxes(tickformat=".0%")
 st.plotly_chart(fig, use_container_width=True)
 
-
-
-
-
-
+st.markdown("""
+**Interpretation:**  
+The stacked bar chart shows the proportion of respondents in each diet type who consume fast food at different frequencies. It highlights the relationship between diet type and fast food habits, which is important for understanding dietary health patterns.
+""")
