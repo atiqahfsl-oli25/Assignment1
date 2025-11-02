@@ -50,7 +50,7 @@ required_cols = [
     "Sleep Issues",
     "Mental Health_Frequency",
     "Age Group",
-    "Current Health_Conditions"
+    "Current Health Conditions"
     "Diet Type"
     "Water Intake per Day"
 ]
