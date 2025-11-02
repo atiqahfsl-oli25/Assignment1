@@ -42,3 +42,23 @@ fig_violin.update_layout(
     showlegend=False
 )
 st.plotly_chart(fig_violin, use_container_width=True)
+
+st.subheader("🩺 Average Current Health Conditions by Age Group")
+health_conditions_by_age = df.groupby('Age Group')['Current Health Conditions'].mean().reset_index()
+fig = px.line(
+    data_frame=health_conditions_by_age,
+    x='Age Group',
+    y='Current Health Conditions',
+    markers=True,
+    title='Average Current Health Conditions by Age Group',
+    color_discrete_sequence=['#EF553B']  # soft red color
+)
+fig.update_layout(
+    xaxis_title='Age Group',
+    yaxis_title='Average Current Health Conditions',
+    template='plotly_white',
+    hovermode='x unified'
+)
+fig.update_xaxes(tickangle=45)
+st.plotly_chart(fig, use_container_width=True)
+
