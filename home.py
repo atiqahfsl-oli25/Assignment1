@@ -40,7 +40,7 @@ except Exception as e:
 # This replaces spaces with underscores, removes accidental trailing spaces, etc.
 # df.columns = df.columns.str.strip().str.replace(" ", "_")
 
-# st.dataframe(df.head(), use_container_width=True)
+ st.dataframe(df.head(), use_container_width=True)
 
 # --- Check Columns Needed ---
 required_cols = [
