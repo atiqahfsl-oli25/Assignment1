@@ -16,3 +16,4 @@ You can navigate between sections to explore insights such as:
 📊 The data is loaded directly from the project’s GitHub repository.
 """
 )
+
