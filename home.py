@@ -19,8 +19,7 @@ using **interactive visualizations** built with Plotly.
 
 ### 📊 Sections:
 - **Health Overview** → Key insights on habits and wellbeing.
-- **Objective 1–4** → Specific analyses exploring relationships between lifestyle and health.
-- **Test Page** → For additional data validation or experiments.
+- **Objective 1–3** → Specific analyses exploring relationships between lifestyle and health.
 
 Use the sidebar on the left to navigate between pages.
 """) 
