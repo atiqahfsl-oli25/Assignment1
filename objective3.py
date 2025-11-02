@@ -41,7 +41,6 @@ col1, col2 = st.columns(2)
     fig_female.update_traces(textposition='inside', textinfo='percent+label')
     st.plotly_chart(fig_female, use_container_width=True)
 
- 
 st.subheader("💧 2. Average Water Intake per Day by Age Group")
 average_water_intake_by_age = (
     df.groupby('Age Group')['Water Intake per Day']
