@@ -55,8 +55,8 @@ with st.expander("🔍 Preview Dataset (first 10 rows)"):
 st.caption(f"**Total Records:** {len(df)} | **Columns:** {len(df.columns)}")
 
 # Show column list to verify correct naming
-st.write("🧾 **Columns in dataset:**")
-st.code(list(df.columns))
+# st.write("🧾 **Columns in dataset:**")
+# st.code(list(df.columns))
 
 # # ==============================
 # # ✅ CHECK REQUIRED COLUMNS
