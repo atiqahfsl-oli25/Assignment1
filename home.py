@@ -84,27 +84,3 @@ st.caption(f"**Total Records:** {len(df)} | **Columns:** {len(df.columns)}")
 # else:
 #     st.success("✅ All required columns are present!")
 
-# # ==============================
-# # 🌍 HEALTH OVERVIEW VISUALIZATIONS
-# # ==============================
-# st.markdown("---")
-# st.subheader("🌍 Health Overview Insights")
-
-# col1, col2 = st.columns(2)
-
-# with col1:
-#     fig1 = px.histogram(
-#         df, x="Gender", color="Smoking_Habit",
-#         title="🚬 Smoking Habit by Gender", barmode="group"
-#     )
-#     st.plotly_chart(fig1, use_container_width=True)
-
-# with col2:
-#     fig2 = px.histogram(
-#         df, x="Age_Group", color="Alcohol_Consumption",
-#         title="🍷 Alcohol Consumption by Age Group", barmode="group"
-#     )
-#     st.plotly_chart(fig2, use_container_width=True)
-
-# st.markdown("---")
-
