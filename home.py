@@ -45,14 +45,14 @@ st.dataframe(df.head(), use_container_width=True)
 # --- Check Columns Needed ---
 required_cols = [
     "Gender",
-    "Alcohol_Consumption",
-    "Smoking_Habit",
-    "Sleep_Issues",
-    "Mental_Health_Frequency",
-    "Age_Group",
-    "Current_Health_Conditions"
-    "Diet_Type"
-    "Water_Intake_per_Day"
+    "Alcohol Consumption",
+    "Smoking Habit",
+    "Sleep Issues",
+    "Mental Health_Frequency",
+    "Age Group",
+    "Current Health_Conditions"
+    "Diet Type"
+    "Water Intake per Day"
 ]
 
 missing = [c for c in required_cols if c not in df.columns]
