@@ -1,19 +1,18 @@
-# home.py
 import streamlit as st
 
+st.set_page_config(page_title="Health & Lifestyle Dashboard", layout="wide")
 
-def render_home():
-st.header("🏠 Welcome to the Health & Lifestyle Dashboard")
-st.markdown(
-"""
-This dashboard visualizes and analyzes various health and lifestyle factors
-using interactive **Plotly** charts.\n\n
-You can navigate between sections to explore insights such as:
-- Alcohol consumption patterns
-- Smoking habits by gender
-- Relationships between mental health and sleep
-- Average health conditions by age group\n\n
-📊 The data is loaded directly from the project’s GitHub repository.
-"""
-)
+st.title("🏠 Welcome to the Health & Lifestyle Dashboard")
+st.markdown("""
+This Streamlit application allows you to explore lifestyle habits and health conditions 
+using **interactive visualizations** built with Plotly.
+
+### 📊 Sections:
+- **Health Overview** → Key insights on habits and wellbeing.
+- **Objective 1–4** → Specific analyses exploring relationships between lifestyle and health.
+- **Test Page** → For additional data validation or experiments.
+
+Use the sidebar on the left to navigate between pages.
+""")
+
 
