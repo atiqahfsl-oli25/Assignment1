@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title("🎯 Objective 1: Mental Health")
+st.title("Objective 1: Mental Health")
 
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv'  
 df = pd.read_csv(url)
@@ -50,7 +50,7 @@ fig.update_layout(
 )
 st.plotly_chart(fig, use_container_width=True)
 
-st.subheader("🧃 Distribution of Sleep Duration by Alcohol Consumption")
+st.subheader("🧃 3.Distribution of Sleep Duration by Alcohol Consumption")
 # Ensure category order (so "No" appears before "Yes")
 if 'Alcohol Consumption' in df.columns:
     df['Alcohol Consumption'] = pd.Categorical(df['Alcohol Consumption'], categories=['No', 'Yes'], ordered=True)
