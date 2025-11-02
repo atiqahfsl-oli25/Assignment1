@@ -23,3 +23,23 @@ fig2.update_layout(
 )
 st.plotly_chart(fig2, use_container_width=True)
 
+st.subheader("🎻 Distribution of Current Health Conditions by Smoking Habit")
+fig_violin = px.violin(
+    df,
+    x='Smoking Habit',
+    y='Current Health Conditions',
+    color='Smoking Habit',
+    box=True,             # adds inner box showing quartiles
+    points='all',         # shows all data points
+    hover_data=df.columns,
+    title='Distribution Density of Current Health Conditions by Smoking Habit',
+    color_discrete_sequence=px.colors.qualitative.Pastel
+)
+fig_violin.update_layout(
+    xaxis_title="Smoking Habit",
+    yaxis_title="Current Health Conditions (e.g., Severity Scale)",
+    template='plotly_white',
+    showlegend=False
+)
+st.plotly_chart(fig_violin, use_container_width=True)
+
