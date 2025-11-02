@@ -6,13 +6,6 @@ import plotly.express as px
 # --- Streamlit Page Configuration ---
 st.set_page_config(page_title="Health & Lifestyle Dashboard", layout="wide")
 
-# --- Sidebar Navigation ---
-st.sidebar.title("Navigation")
-page = st.sidebar.radio(
-    "Go to:",
-    ["Overview", "Alcohol", "Smoking", "Sleep & Mental Health", "Health Conditions"]
-)
-
 st.sidebar.markdown("---")
 st.sidebar.write("📊 Use the sidebar to navigate through the visualizations.")
 
