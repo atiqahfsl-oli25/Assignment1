@@ -11,7 +11,7 @@ objective4 = st.Page("objective4.py", title="🌱 Objective 4: Current Health Co
 
 # Navigation
 pg = st.navigation({
-    "Main Menu": [home, objective1, objective2, objective3, objective4]
+    "Main Menu": [objective1, objective2, objective3, objective4]
 })
 
 pg.run()
