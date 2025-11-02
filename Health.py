@@ -6,10 +6,6 @@ import plotly.express as px
 # --- Streamlit Page Configuration ---
 st.set_page_config(page_title="Health & Lifestyle Dashboard", layout="wide")
 
-st.sidebar.markdown("---")
-st.sidebar.write("📊 Use the sidebar to navigate through the visualizations.")
-
-
 # --- Title ---
 st.title("🩺 Health & Lifestyle Visualization Dashboard")
 st.markdown("Analyze lifestyle habits and health conditions interactively using Plotly visualizations.")
