@@ -51,8 +51,8 @@ required_cols = [
     "Mental_Health_Frequency",
     "Age_Group",
     "Current_Health_Conditions"
-    "Diet Type"
-    "Water Intake per Day"
+    "Diet_Type"
+    "Water_Intake_per_Day"
 ]
 
 missing = [c for c in required_cols if c not in df.columns]
