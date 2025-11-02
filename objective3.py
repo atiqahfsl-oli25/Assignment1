@@ -7,34 +7,8 @@ st.title("Objective 3: Food and Water Consumption")
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv' 
 df = pd.read_csv(url)
 
-st.title("🥗 1.Diet Type by Gender Visualization")
-df['Diet Type'] = df['Diet Type'].replace('nonveg', 'non veg')
-fig = px.bar(
-    df,
-    x='Diet Type',
-    color='Gender',
-    barmode='group',
-    title='Diet Type by Gender',
-    color_discrete_sequence=px.colors.qualitative.Set2
-)
-fig.update_layout(
-    xaxis_title="Diet Type",
-    yaxis_title="Count",
-    title_font=dict(size=20, color='darkblue'),
-    plot_bgcolor='white',
-    legend_title_text='Gender'
-)
-st.plotly_chart(fig, use_container_width=True)
-
-import streamlit as st
-import pandas as pd
-import plotly.graph_objects as go
-
-# --- Streamlit Page Configuration ---
-st.set_page_config(page_title="Diet Type Distribution by Gender", layout="wide")
-
 # --- Title ---
-st.title("🥗 2.Diet Type Distribution by Gender")
+st.title("🥗 1.Diet Type Distribution by Gender")
 df['Diet Type'] = df['Diet Type'].replace('nonveg', 'non veg')
 
 df_male = df[df['Gender'] == 'Male']
@@ -73,7 +47,7 @@ fig.update_layout(
 )
 st.plotly_chart(fig, use_container_width=True)
 
-st.subheader("💧 Average Water Intake per Day by Age Group")
+st.subheader("💧 2.Average Water Intake per Day by Age Group")
 average_water_intake_by_age = df.groupby('Age Group')['Water Intake per Day'].mean().reset_index()
 fig = px.line(
     data_frame=average_water_intake_by_age,
@@ -92,7 +66,7 @@ fig.update_layout(
 fig.update_xaxes(tickangle=45)
 st.plotly_chart(fig, use_container_width=True)
 
-st.subheader("🍔 Proportion of Fast Food Consumption Frequency by Diet Type")
+st.subheader("🍔 3.Proportion of Fast Food Consumption Frequency by Diet Type")
 # Create a contingency table (cross-tabulation)
 contingency_table = pd.crosstab(df['Diet Type'], df['Fast Food Consumption Frequency'])
 
