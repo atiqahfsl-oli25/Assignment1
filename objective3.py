@@ -19,7 +19,7 @@ df = pd.read_csv(url)
     diet_counts_male.columns = ['Diet Type', 'Count']
 
     diet_counts_female = df_female['Diet Type'].value_counts().reset_index()
-    diet_counts_female.columns = ['Diet Type', 'Count']
+    diet_counts_female.columns = ['Diet Type', 'Count'] 
 
     # Create columns for side-by-side charts
     col1, col2 = st.columns(2)
