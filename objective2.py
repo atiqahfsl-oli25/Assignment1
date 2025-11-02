@@ -44,10 +44,9 @@ fig_violin.update_layout(
 st.plotly_chart(fig_violin, use_container_width=True)
 
 st.subheader("🔥 2D Heatmap: Frequency of Physical Activity Level and Health Conditions")
-# Ensure numeric data
-df['Current Health Conditions'] = pd.to_numeric(df['Current Health Conditions'], errors='coerce')
-df['Physical Activity Level'] = pd.to_numeric(df['Physical Activity Level'], errors='coerce')
-df.dropna(subset=['Current Health Conditions', 'Physical Activity Level'], inplace=True)
+    df['Current Health Conditions'] = pd.to_numeric(df['Current Health Conditions'], errors='coerce')
+    df['Physical Activity Level'] = pd.to_numeric(df['Physical Activity Level'], errors='coerce')
+    df.dropna(subset=['Current Health Conditions', 'Physical Activity Level'], inplace=True)
 
 # Create 2D heatmap using Plotly
 fig_heatmap = px.density_heatmap(
