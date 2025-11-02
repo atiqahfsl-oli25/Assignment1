@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title("💤 Objective 2: Physical Health")
+st.title("Objective 2: Physical Health")
 
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv' 
 df = pd.read_csv(url)
 
-st.subheader("🚬 2. Smoking Habit Distribution by Gender")
+st.subheader("🚬 1. Smoking Habit Distribution by Gender")
 fig2 = px.histogram(
     df,
     x="Smoking Habit",
@@ -23,7 +23,7 @@ fig2.update_layout(
 )
 st.plotly_chart(fig2, use_container_width=True)
 
-st.subheader("🎻 Distribution of Current Health Conditions by Smoking Habit")
+st.subheader("🎻 2.Distribution of Current Health Conditions by Smoking Habit")
 fig_violin = px.violin(
     df,
     x='Smoking Habit',
