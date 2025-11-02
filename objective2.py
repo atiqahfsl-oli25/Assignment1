@@ -37,7 +37,7 @@ fig_violin = px.violin(
 )
 fig_violin.update_layout(
     xaxis_title="Smoking Habit",
-    yaxis_title="Current Health Conditions (e.g., Severity Scale)",
+    yaxis_title="Current Health Conditions",
     template='plotly_white',
     showlegend=False
 )
