@@ -16,7 +16,6 @@ df_female = df[df['Gender'] == 'Female']
 diet_counts_male = df_male['Diet Type'].value_counts()
 diet_counts_female = df_female['Diet Type'].value_counts()
 fig = go.Figure()
-
 # Male Pie
 fig.add_trace(go.Pie(
     labels=diet_counts_male.index,
