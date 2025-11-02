@@ -1,14 +1,19 @@
 import streamlit as st
-import pandas as pd
-import plotly.express as px
 
-st.title("🧩 Test & Validation Page")
+st.set_page_config(page_title="Healthcare and Lifestyle", layout="wide")
 
-url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv' 
-df = pd.read_csv(url)
+# Pages
+home = st.Page("home.py", title="🏠 Home", default=True)
+objective1 = st.Page("home.py", title="🎓 Objective 1: Alcohol ")
+objective2 = st.Page("objective2.py", title="🌾 Objective 2: Smoking Habit")
+objective3 = st.Page("objective3.py", title="🌱 Objective 3: Mental Health Issues vs Sleep Issues")
+objective4 = st.Page("objective3.py", title="🌱 Objective 4: Current Health Condition")
 
-st.write("Sample of the dataset:")
-st.dataframe(df.head())
+# Navigation
+pg = st.navigation({
+    "Main Menu": [home, objective1, objective2, objective3, objective4]
+})
 
-st.success("Data loaded successfully! ✅")
+pg.run()
+
 
