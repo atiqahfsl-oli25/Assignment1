@@ -8,7 +8,6 @@ url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/
 df = pd.read_csv(url)
 
 st.subheader("🥗 1. Diet Type Distribution by Gender")
-
 df_male = df[df['Gender'] == 'Male']
 df_female = df[df['Gender'] == 'Female']
 
@@ -42,11 +41,8 @@ col1, col2 = st.columns(2)
     fig_female.update_traces(textposition='inside', textinfo='percent+label')
     st.plotly_chart(fig_female, use_container_width=True)
 
- # =======================================================
-# 2️⃣ Average Water Intake per Day by Age Group (Line Plot)
-# =======================================================
+ 
 st.subheader("💧 2. Average Water Intake per Day by Age Group")
-
 average_water_intake_by_age = (
     df.groupby('Age Group')['Water Intake per Day']
     .mean()
