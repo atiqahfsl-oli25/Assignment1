@@ -7,7 +7,6 @@ st.title("Objective 3: Food and Water Consumption")
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv' 
 df = pd.read_csv(url)
 
-# --- Title ---
 st.title("🥗 1.Diet Type Distribution by Gender")
 df['Diet Type'] = df['Diet Type'].replace('nonveg', 'non veg')
 
