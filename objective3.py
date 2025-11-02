@@ -7,6 +7,33 @@ st.title("Objective 3: Food and Water Consumption")
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv' 
 df = pd.read_csv(url)
 
+import streamlit as st
+import plotly.express as px
+
+st.title("🍽️ 1.Diet Type Distribution by Gender")
+df_male = df[df['Gender'] == 'Male']
+df_female = df[df['Gender'] == 'Female']
+
+fig_male = px.pie(
+    df_male,
+    names='Diet Type',
+    title='Diet Type Distribution for Male',
+    hole=0.4,
+    color_discrete_sequence=px.colors.qualitative.Pastel
+)
+fig_female = px.pie(
+    df_female,
+    names='Diet Type',
+    title='Diet Type Distribution for Female',
+    hole=0.4,
+    color_discrete_sequence=px.colors.qualitative.Pastel
+)
+col1, col2 = st.columns(2)
+with col1:
+    st.plotly_chart(fig_male, use_container_width=True)
+with col2:
+    st.plotly_chart(fig_female, use_container_width=True)
+
 st.subheader("💧 2.Average Water Intake per Day by Age Group")
 average_water_intake_by_age = df.groupby('Age Group')['Water Intake per Day'].mean().reset_index()
 fig = px.line(
