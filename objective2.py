@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title("Objective 2: Smoking Habits affecting life physical by several age group")
+st.title("Objective 2: to show that smoking habits affecting life physical activity within several age group")
 
 # --- Load Data ---
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv' 
