@@ -49,5 +49,4 @@ fig.update_layout(
     xaxis=dict(showgrid=True, gridwidth=1, gridcolor='lightgray'),
     yaxis=dict(showgrid=True, gridwidth=1, gridcolor='lightgray')
 )
-
 st.plotly_chart(fig3, use_container_width=True)
