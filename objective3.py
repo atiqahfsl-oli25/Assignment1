@@ -53,7 +53,6 @@ average_water_intake_by_age = (
     .reset_index()
     .sort_values('Age Group')
 )
-
 fig_line = px.line(
     average_water_intake_by_age,
     x='Age Group',
