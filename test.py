@@ -1,13 +1,13 @@
+import streamlit as st
 import pandas as pd
-from objective2 import preprocess_data
 
+st.title("🧩 Test & Validation Page")
 
-def test_preprocess_data():
-sample = pd.DataFrame({
-'Gender': ['Male', 'Female', None],
-'Age Group': ['18-25', '26-35', '18-25'],
-'Current Health Conditions': [2, None, 3]
-})
-cleaned = preprocess_data(sample)
-assert cleaned.isna().sum().sum() == 0
-assert 'Gender' in cleaned.columns
+url = "https://raw.githubusercontent.com/yourusername/yourrepo/main/dataframe.csv"
+df = pd.read_csv(url)
+
+st.write("Sample of the dataset:")
+st.dataframe(df.head())
+
+st.success("Data loaded successfully! ✅")
+
