@@ -2,7 +2,6 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(page_title="Health Overview", layout="wide")
-
 st.title("🩺 Health & Lifestyle Overview")
 
 # Load dataset
