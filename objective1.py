@@ -7,5 +7,18 @@ st.title("🎯 Objective 1: Physical Activity Analysis")
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv'  
 df = pd.read_csv(url)
 
-fig = px.histogram(df, x="Physical Activity Level", color="Gender", barmode="group", title="Physical Activity Level by Gender")
-st.plotly_chart(fig, use_container_width=True)
+st.subheader("🍷 1. Distribution of Alcohol Consumption by Gender")
+fig1 = px.histogram(
+    df,
+    x="Gender",
+    color="Alcohol_Consumption",
+    barmode="group",
+    title="Distribution of Alcohol Consumption by Gender",
+    color_discrete_sequence=px.colors.qualitative.Set2
+)
+fig1.update_layout(
+    xaxis_title="Gender",
+    yaxis_title="Number of Respondents",
+    legend_title="Alcohol Consumption"
+)
+st.plotly_chart(fig1, use_container_width=True)
