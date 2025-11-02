@@ -11,7 +11,7 @@ st.subheader("🍷 1. Distribution of Alcohol Consumption by Gender")
 fig1 = px.histogram(
     df,
     x="Gender",
-    color="Alcohol_Consumption",
+    color="Alcohol Consumption",
     barmode="group",
     title="Distribution of Alcohol Consumption by Gender",
     color_discrete_sequence=px.colors.qualitative.Set2
