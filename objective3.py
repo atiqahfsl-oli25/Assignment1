@@ -10,7 +10,13 @@ df = pd.read_csv(url)
 import streamlit as st
 import plotly.express as px
 
+import streamlit as st
+import plotly.express as px
+
+# --- Title ---
 st.title("🍽️ 1.Diet Type Distribution by Gender")
+df['Diet Type'] = df['Diet Type'].replace('nonveg', 'none veg')
+
 df_male = df[df['Gender'] == 'Male']
 df_female = df[df['Gender'] == 'Female']
 
