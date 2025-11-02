@@ -68,5 +68,4 @@ st.subheader("🥗 1. Diet Type Distribution by Gender")
         legend_title_text="",
         template='plotly_white'
     )
-
     st.plotly_chart(fig_line, use_container_width=True)
