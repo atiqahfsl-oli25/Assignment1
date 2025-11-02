@@ -1,13 +1,11 @@
 import streamlit as st
+import pandas as pd
 import plotly.express as px
 
+st.title("🧠 Objective 3: Mental Health & Lifestyle")
 
-def visualize_relationships(df):
-st.header("💤 Mental Health & Sleep Relationship")
+url = "https://raw.githubusercontent.com/yourusername/yourrepo/main/dataframe.csv"
+df = pd.read_csv(url)
 
-
-sleep_health_mean = df.groupby(['Sleep Issues', 'Gender'])['Mental Health Frequency'].mean().reset_index()
-fig = px.line(sleep_health_mean, x='Sleep Issues', y='Mental Health Frequency', color='Gender',
-markers=True, title='Mental Health Issue Frequency vs Sleep Issues',
-color_discrete_sequence=px.colors.qualitative.Set2)
+fig = px.scatter(df, x="Stress_Level", y="Mental_Health_Score", color="Gender", trendline="ols", title="Stress vs Mental Health Score")
 st.plotly_chart(fig, use_container_width=True)
