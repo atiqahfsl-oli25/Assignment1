@@ -22,3 +22,33 @@ fig1.update_layout(
     legend_title="Alcohol Consumption"
 )
 st.plotly_chart(fig1, use_container_width=True)
+
+st.title("🧠 Mental Health Frequency vs Sleep Issues")
+st.markdown("""
+This interactive line chart shows how **mental health issue frequency** varies 
+based on **sleep issues**, categorized by **gender**.
+""")
+
+# --- Create Plotly Line Chart ---
+fig = px.line(
+    df,
+    x="Sleep Issues",
+    y="Mental Health Frequency",
+    color="Gender",
+    markers=True,
+    title="Mental Health Issue Frequency vs Sleep Issues",
+    line_shape="linear",
+    color_discrete_sequence=px.colors.qualitative.Pastel
+)
+
+# --- Customize Layout ---
+fig.update_layout(
+    xaxis_title="Sleep Issues",
+    yaxis_title="Frequency of Mental Health Issues",
+    template="plotly_white",
+    legend_title="Gender",
+    legend=dict(x=1, y=1),
+)
+
+# --- Show Chart ---
+st.plotly_chart(fig, use_container_width=True)
