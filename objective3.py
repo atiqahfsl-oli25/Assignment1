@@ -15,7 +15,7 @@ import plotly.express as px
 
 # --- Title ---
 st.title("🍽️ 1.Diet Type Distribution by Gender")
-df['Diet Type'] = df['Diet Type'].replace('nonveg', 'none veg')
+df['Diet Type'] = df['Diet Type'].replace(['nonveg', 'non veg', 'non-veg'], 'none veg')
 
 df_male = df[df['Gender'] == 'Male']
 df_female = df[df['Gender'] == 'Female']
