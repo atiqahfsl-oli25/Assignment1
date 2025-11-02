@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+# --- Title ---
 st.title("Objective 3: Food and Water Consumption")
 
 # --- Load Data ---
@@ -30,19 +31,20 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown("**Male**")
     for diet, count in diet_counts_male.items():
-        st.metric(label=diet, value=count)
+        st.metric(label=str(diet), value=int(count))
 with col2:
     st.markdown("**Female**")
     for diet, count in diet_counts_female.items():
-        st.metric(label=diet, value=count)
+        st.metric(label=str(diet), value=int(count))
 
 st.markdown("### Average Water Intake by Age Group")
 for age_group, avg in avg_water_by_age.items():
-    st.metric(label=age_group, value=f"{avg:.2f} litres")
+    st.metric(label=f"Age Group: {age_group}", value=f"{avg:.2f} litres")
 
 st.markdown("### Fast Food Consumption Proportion by Diet Type")
 for diet_type, row in fastfood_prop.iterrows():
-    st.markdown(f"**{diet_type}**: " + ", ".join([f"{freq}: {prop:.0%}" for freq, prop in row.items()]))
+    proportions = ", ".join([f"{freq}: {prop:.0%}" for freq, prop in row.items()])
+    st.markdown(f"**{diet_type}**: {proportions}")
 
 # --- 1. Diet Type Distribution by Gender ---
 st.subheader("🍽️ 1. Diet Type Distribution by Gender")
@@ -71,7 +73,7 @@ with col2:
 
 st.markdown("""
 **Interpretation:**  
-The pie charts show the distribution of diet types by gender. This helps identify the proportion of male and female respondents following vegetarian, none-veg, or mixed diets. It highlights dietary preferences that may impact nutritional health.
+The pie charts show the distribution of diet types by gender. This helps identify the proportion of male and female respondents following vegetarian, none-veg, or mixed diets. Dietary patterns may influence nutritional health.
 """)
 
 # --- 2. Average Water Intake by Age Group ---
@@ -96,7 +98,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("""
 **Interpretation:**  
-The line chart shows how average daily water intake varies by age group. It helps identify age groups with insufficient hydration and guides interventions for promoting healthy water consumption habits.
+The line chart shows how average daily water intake varies by age group. This helps identify age groups with insufficient hydration and promotes healthy water consumption habits.
 """)
 
 # --- 3. Proportion of Fast Food Consumption Frequency by Diet Type ---
