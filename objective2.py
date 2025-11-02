@@ -11,27 +11,27 @@ df = pd.read_csv(url)
 # --- Summary Section ---
 st.subheader("📋 Summary Overview")
 
-# 1️⃣ Smoking Habit Summary
+# Smoking Habit Summary
 smoking_counts_male = df[df['Gender']=='Male']['Smoking Habit'].value_counts()
 smoking_counts_female = df[df['Gender']=='Female']['Smoking Habit'].value_counts()
 
-# 2️⃣ Current Health Conditions Summary
+# Current Health Conditions Summary by Smoking Habit
 avg_health_by_smoking = df.groupby('Smoking Habit')['Current Health Conditions'].mean()
 
-# 3️⃣ Average Health by Age Group
+# Average Health Conditions by Age Group
 avg_health_by_age = df.groupby('Age Group')['Current Health Conditions'].mean()
 
-# --- Display Summary Boxes ---
+# Display Summary Boxes
 st.markdown("### Smoking Habit by Gender")
 col1, col2 = st.columns(2)
 with col1:
     st.markdown("**Male**")
-    for value, count in smoking_counts_male.items():
-        st.metric(label=value, value=count)
+    for habit, count in smoking_counts_male.items():
+        st.metric(label=habit, value=count)
 with col2:
     st.markdown("**Female**")
-    for value, count in smoking_counts_female.items():
-        st.metric(label=value, value=count)
+    for habit, count in smoking_counts_female.items():
+        st.metric(label=habit, value=count)
 
 st.markdown("### Average Current Health Conditions by Smoking Habit")
 for habit, avg in avg_health_by_smoking.items():
@@ -59,10 +59,9 @@ fig2.update_layout(
 )
 st.plotly_chart(fig2, use_container_width=True)
 
-# Interpretation
 st.markdown("""
 **Interpretation:**  
-This histogram shows how smoking habits vary by gender. We can quickly see which gender has higher prevalence for each category (e.g., 'Non-Smoker', 'Occasional', 'Regular'). This insight helps understand gender-based differences in smoking, which can impact overall physical health.
+This histogram shows how smoking habits differ between male and female respondents. It helps identify which gender has higher prevalence in each smoking category and provides insight into gender-based physical health behaviors.
 """)
 
 
@@ -87,10 +86,9 @@ fig_violin.update_layout(
 )
 st.plotly_chart(fig_violin, use_container_width=True)
 
-# Interpretation
 st.markdown("""
 **Interpretation:**  
-The violin plot shows the distribution of current health conditions for different smoking habits. The wider sections indicate more respondents with that health condition score. Generally, heavier smokers may show higher average health condition issues, highlighting the impact of smoking on physical health.
+The violin plot displays the distribution of current health conditions for each smoking habit. Wider areas indicate more respondents with a particular health condition score. Typically, heavier smokers may show higher health issue scores, indicating the negative impact of smoking on physical health.
 """)
 
 
@@ -114,8 +112,7 @@ fig.update_layout(
 fig.update_xaxes(tickangle=45)
 st.plotly_chart(fig, use_container_width=True)
 
-# Interpretation
 st.markdown("""
 **Interpretation:**  
-The line plot shows how the average current health condition changes across different age groups. We can observe trends such as increasing health issues with age, which helps identify which age groups may need more health interventions or monitoring.
+The line plot shows the trend of average current health conditions across age groups. It highlights whether older age groups experience higher health issues, which can inform targeted health interventions.
 """)
