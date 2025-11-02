@@ -74,7 +74,6 @@ fig.update_layout(
 st.plotly_chart(fig, use_container_width=True)
 
 st.subheader("💧 Average Water Intake per Day by Age Group")
-# Compute Average Water Intake by Age Group
 average_water_intake_by_age = df.groupby('Age Group')['Water Intake per Day'].mean().reset_index()
 fig = px.line(
     average_water_intake_by_age,
@@ -91,7 +90,6 @@ fig.update_layout(
     template="plotly_white",
     hovermode="x unified"
 )
-fig.update_xaxes(tickangle=45)
 st.plotly_chart(fig, use_container_width=True)
 
 
