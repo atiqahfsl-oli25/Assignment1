@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # --- Title ---
-st.title("Objective 3: Food and Water Consumption")
+st.title("Objective 3: to determine total of consumption of food and water by gender and age group")
 
 # --- Load Data ---
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv' 
