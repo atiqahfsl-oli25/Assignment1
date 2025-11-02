@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title("🧠 Objective 3: Food and Water Consumption")
+st.title("Objective 3: Food and Water Consumption")
 
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv' 
 df = pd.read_csv(url)
 
-st.title("🥗 Diet Type by Gender Visualization")
+st.title("🥗 1.Diet Type by Gender Visualization")
 df['Diet Type'] = df['Diet Type'].replace('nonveg', 'non veg')
 fig = px.bar(
     df,
@@ -34,7 +34,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="Diet Type Distribution by Gender", layout="wide")
 
 # --- Title ---
-st.title("🥗 Diet Type Distribution by Gender")
+st.title("🥗 2.Diet Type Distribution by Gender")
 df['Diet Type'] = df['Diet Type'].replace('nonveg', 'non veg')
 
 df_male = df[df['Gender'] == 'Male']
@@ -73,26 +73,6 @@ fig.update_layout(
 )
 st.plotly_chart(fig, use_container_width=True)
 
-st.subheader("💧 Average Water Intake per Day by Age Group")
-
-    average_water_intake_by_age = df.groupby('Age Group')['Water Intake per Day'].mean().reset_index()
-
-fig = px.line(
-    data_frame=average_water_intake_by_age,
-    x='Age Group',
-    y='Water Intake per Day',
-    markers=True,
-    title='Average Water Intake per Day by Age Group',
-    color_discrete_sequence=['#1f77b4']  # Blue tone
-)
-fig.update_layout(
-    xaxis_title='Age Group',
-    yaxis_title='Average Water Intake (litres)',
-    template='plotly_white',
-    hovermode='x unified'
-)
-fig.update_xaxes(tickangle=45)
-st.plotly_chart(fig, use_container_width=True)
 
 
 
