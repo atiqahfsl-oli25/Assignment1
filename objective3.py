@@ -74,7 +74,8 @@ fig.update_layout(
 st.plotly_chart(fig, use_container_width=True)
 
 st.subheader("💧 Average Water Intake per Day by Age Group")
-average_water_intake_by_age = df.groupby('Age Group')['Water Intake per Day'].mean().reset_index()
+
+    average_water_intake_by_age = df.groupby('Age Group')['Water Intake per Day'].mean().reset_index()
 
 fig = px.line(
     data_frame=average_water_intake_by_age,
