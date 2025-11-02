@@ -48,7 +48,7 @@ required_cols = [
     "Alcohol Consumption",
     "Smoking Habit",
     "Sleep Issues",
-    "Mental Health_Frequency",
+    "Mental Health Frequency",
     "Age Group",
     "Current Health Conditions"
     "Diet Type"
