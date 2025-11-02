@@ -49,3 +49,27 @@ fig.update_layout(
     yaxis=dict(showgrid=True, gridwidth=1, gridcolor='lightgray')
 )
 st.plotly_chart(fig, use_container_width=True)
+
+st.subheader("🧃 Distribution of Sleep Duration by Alcohol Consumption")
+# Ensure category order (so "No" appears before "Yes")
+if 'Alcohol Consumption' in df.columns:
+    df['Alcohol Consumption'] = pd.Categorical(df['Alcohol Consumption'], categories=['No', 'Yes'], ordered=True)
+
+# Create the box plot
+fig_box = px.box(
+    df,
+    x='Alcohol Consumption',
+    y='Sleep Duration',
+    color='Alcohol Consumption',
+    title='Distribution of Sleep Duration by Alcohol Consumption',
+    color_discrete_sequence=px.colors.sequential.Viridis
+)
+# Customize layout
+fig_box.update_layout(
+    xaxis_title="Alcohol Consumption",
+    yaxis_title="Sleep Duration (Hours)",
+    template='plotly_white',
+    showlegend=False
+)
+st.plotly_chart(fig_box, use_container_width=True)
+
