@@ -23,32 +23,31 @@ fig1.update_layout(
 )
 st.plotly_chart(fig1, use_container_width=True)
 
-st.title("🧠 Mental Health Frequency vs Sleep Issues")
-st.markdown("""
-This interactive line chart shows how **mental health issue frequency** varies 
-based on **sleep issues**, categorized by **gender**.
-""")
+st.subheader("💤 3. Mental Health Issue Frequency vs Sleep Issues")
+# Group and average data by Sleep Issues and Gender
+sleep_health_mean = df.groupby(['Sleep Issues', 'Gender'])['Mental Health Frequency'].mean().reset_index()
 
-# --- Create Plotly Line Chart ---
+# Now plot the aggregated data
 fig = px.line(
-    df,
-    x="Sleep Issues",
-    y="Mental Health Frequency",
-    color="Gender",
+    sleep_health_mean,
+    x='Sleep Issues',
+    y='Mental Health Frequency',
+    color='Gender',
     markers=True,
-    title="Mental Health Issue Frequency vs Sleep Issues",
-    line_shape="linear",
-    color_discrete_sequence=px.colors.qualitative.Pastel
+    title='Mental Health Issue Frequency vs Sleep Issues',
+    color_discrete_sequence=px.colors.qualitative.Set2
 )
 
-# --- Customize Layout ---
+fig.update_traces(line=dict(width=2), marker=dict(size=8, symbol='circle'))
 fig.update_layout(
     xaxis_title="Sleep Issues",
     yaxis_title="Frequency of Mental Health Issues",
-    template="plotly_white",
     legend_title="Gender",
-    legend=dict(x=1, y=1),
+    template="simple_white",
+    hovermode="x unified",
+    plot_bgcolor="rgba(0,0,0,0)",
+    xaxis=dict(showgrid=True, gridwidth=1, gridcolor='lightgray'),
+    yaxis=dict(showgrid=True, gridwidth=1, gridcolor='lightgray')
 )
 
-# --- Show Chart ---
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig3, use_container_width=True)
