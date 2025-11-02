@@ -1,12 +1,15 @@
-# Health.py
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# --- Streamlit Page Configuration ---
+# ==============================
+# 🩺 STREAMLIT PAGE CONFIGURATION
+# ==============================
 st.set_page_config(page_title="Health & Lifestyle Dashboard", layout="wide")
 
-# --- Title ---
+# ==============================
+# 🏷️ TITLE & INTRODUCTION
+# ==============================
 st.title("🩺 Health & Lifestyle Visualization Dashboard")
 st.markdown("Analyze lifestyle habits and health conditions interactively using Plotly visualizations.")
 
@@ -22,7 +25,9 @@ using **interactive visualizations** built with Plotly.
 Use the sidebar on the left to navigate between pages.
 """) 
 
-# --- Load Data ---
+# ==============================
+# 📂 LOAD DATA
+# ==============================
 url = "https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv"
 
 @st.cache_data
@@ -36,30 +41,70 @@ except Exception as e:
     st.error(f"❌ Error loading data: {e}")
     st.stop()
 
-# --- Clean Column Names ---
-# This replaces spaces with underscores, removes accidental trailing spaces, etc.
-# df.columns = df.columns.str.strip().str.replace(" ", "_")
+# ==============================
+# 🧹 CLEAN COLUMN NAMES
+# ==============================
+df.columns = df.columns.str.strip().str.replace(" ", "_")
 
- st.dataframe(df.head(), use_container_width=True)
+# ==============================
+# 🔍 DATA PREVIEW
+# ==============================
+with st.expander("🔍 Preview Dataset (first 10 rows)"):
+    st.dataframe(df.head(10), use_container_width=True)
 
-# --- Check Columns Needed ---
+st.caption(f"**Total Records:** {len(df)} | **Columns:** {len(df.columns)}")
+
+# Show column list to verify correct naming
+st.write("🧾 **Columns in dataset:**")
+st.code(list(df.columns))
+
+# ==============================
+# ✅ CHECK REQUIRED COLUMNS
+# ==============================
 required_cols = [
     "Gender",
-    "Alcohol Consumption",
-    "Smoking Habit",
-    "Sleep Issues",
-    "Mental Health Frequency",
-    "Age Group",
-    "Current Health Conditions",
-    "Diet Type",
-    "Water Intake per Day"
+    "Alcohol_Consumption",
+    "Smoking_Habit",
+    "Sleep_Issues",
+    "Mental_Health_Frequency",
+    "Age_Group",
+    "Current_Health_Conditions",
+    "Diet_Type",
+    "Water_Intake_per_Day"
 ]
 
 missing = [c for c in required_cols if c not in df.columns]
 if missing:
     st.error(
-        "The dataset is missing expected columns needed for the visualizations:\n\n"
+        "🚨 The dataset is missing expected columns needed for the visualizations:\n\n"
         f"{missing}\n\n"
         "Please check your CSV header names (they are case-sensitive)."
     )
     st.stop()
+else:
+    st.success("✅ All required columns are present!")
+
+# ==============================
+# 🌍 HEALTH OVERVIEW VISUALIZATIONS
+# ==============================
+st.markdown("---")
+st.subheader("🌍 Health Overview Insights")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    fig1 = px.histogram(
+        df, x="Gender", color="Smoking_Habit",
+        title="🚬 Smoking Habit by Gender", barmode="group"
+    )
+    st.plotly_chart(fig1, use_container_width=True)
+
+with col2:
+    fig2 = px.histogram(
+        df, x="Age_Group", color="Alcohol_Consumption",
+        title="🍷 Alcohol Consumption by Age Group", barmode="group"
+    )
+    st.plotly_chart(fig2, use_container_width=True)
+
+st.markdown("---")
+
