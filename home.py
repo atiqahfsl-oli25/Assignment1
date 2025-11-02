@@ -10,6 +10,18 @@ st.set_page_config(page_title="Health & Lifestyle Dashboard", layout="wide")
 st.title("🩺 Health & Lifestyle Visualization Dashboard")
 st.markdown("Analyze lifestyle habits and health conditions interactively using Plotly visualizations.")
 
+st.markdown("""
+This Streamlit application allows you to explore lifestyle habits and health conditions 
+using **interactive visualizations** built with Plotly.
+
+### 📊 Sections:
+- **Health Overview** → Key insights on habits and wellbeing.
+- **Objective 1–4** → Specific analyses exploring relationships between lifestyle and health.
+- **Test Page** → For additional data validation or experiments.
+
+Use the sidebar on the left to navigate between pages.
+""") 
+
 # --- Load Data ---
 url = "https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv"
 
