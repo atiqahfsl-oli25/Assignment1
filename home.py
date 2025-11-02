@@ -58,53 +58,53 @@ st.caption(f"**Total Records:** {len(df)} | **Columns:** {len(df.columns)}")
 st.write("🧾 **Columns in dataset:**")
 st.code(list(df.columns))
 
-# ==============================
-# ✅ CHECK REQUIRED COLUMNS
-# ==============================
-required_cols = [
-    "Gender",
-    "Alcohol_Consumption",
-    "Smoking_Habit",
-    "Sleep_Issues",
-    "Mental_Health_Frequency",
-    "Age_Group",
-    "Current_Health_Conditions",
-    "Diet_Type",
-    "Water_Intake_per_Day"
-]
+# # ==============================
+# # ✅ CHECK REQUIRED COLUMNS
+# # ==============================
+# required_cols = [
+#     "Gender",
+#     "Alcohol_Consumption",
+#     "Smoking_Habit",
+#     "Sleep_Issues",
+#     "Mental_Health_Frequency",
+#     "Age_Group",
+#     "Current_Health_Conditions",
+#     "Diet_Type",
+#     "Water_Intake_per_Day"
+# ]
 
-missing = [c for c in required_cols if c not in df.columns]
-if missing:
-    st.error(
-        "🚨 The dataset is missing expected columns needed for the visualizations:\n\n"
-        f"{missing}\n\n"
-        "Please check your CSV header names (they are case-sensitive)."
-    )
-    st.stop()
-else:
-    st.success("✅ All required columns are present!")
+# missing = [c for c in required_cols if c not in df.columns]
+# if missing:
+#     st.error(
+#         "🚨 The dataset is missing expected columns needed for the visualizations:\n\n"
+#         f"{missing}\n\n"
+#         "Please check your CSV header names (they are case-sensitive)."
+#     )
+#     st.stop()
+# else:
+#     st.success("✅ All required columns are present!")
 
-# ==============================
-# 🌍 HEALTH OVERVIEW VISUALIZATIONS
-# ==============================
-st.markdown("---")
-st.subheader("🌍 Health Overview Insights")
+# # ==============================
+# # 🌍 HEALTH OVERVIEW VISUALIZATIONS
+# # ==============================
+# st.markdown("---")
+# st.subheader("🌍 Health Overview Insights")
 
-col1, col2 = st.columns(2)
+# col1, col2 = st.columns(2)
 
-with col1:
-    fig1 = px.histogram(
-        df, x="Gender", color="Smoking_Habit",
-        title="🚬 Smoking Habit by Gender", barmode="group"
-    )
-    st.plotly_chart(fig1, use_container_width=True)
+# with col1:
+#     fig1 = px.histogram(
+#         df, x="Gender", color="Smoking_Habit",
+#         title="🚬 Smoking Habit by Gender", barmode="group"
+#     )
+#     st.plotly_chart(fig1, use_container_width=True)
 
-with col2:
-    fig2 = px.histogram(
-        df, x="Age_Group", color="Alcohol_Consumption",
-        title="🍷 Alcohol Consumption by Age Group", barmode="group"
-    )
-    st.plotly_chart(fig2, use_container_width=True)
+# with col2:
+#     fig2 = px.histogram(
+#         df, x="Age_Group", color="Alcohol_Consumption",
+#         title="🍷 Alcohol Consumption by Age Group", barmode="group"
+#     )
+#     st.plotly_chart(fig2, use_container_width=True)
 
-st.markdown("---")
+# st.markdown("---")
 
