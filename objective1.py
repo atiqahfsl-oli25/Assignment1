@@ -37,7 +37,6 @@ fig = px.line(
     title='Mental Health Issue Frequency vs Sleep Issues',
     color_discrete_sequence=px.colors.qualitative.Set2
 )
-
 fig.update_traces(line=dict(width=2), marker=dict(size=8, symbol='circle'))
 fig.update_layout(
     xaxis_title="Sleep Issues",
@@ -49,4 +48,4 @@ fig.update_layout(
     xaxis=dict(showgrid=True, gridwidth=1, gridcolor='lightgray'),
     yaxis=dict(showgrid=True, gridwidth=1, gridcolor='lightgray')
 )
-st.plotly_chart(fig3, use_container_width=True)
+st.plotly_chart(fig, use_container_width=True)
