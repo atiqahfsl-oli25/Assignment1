@@ -92,6 +92,37 @@ fig.update_layout(
 fig.update_xaxes(tickangle=45)
 st.plotly_chart(fig, use_container_width=True)
 
+st.subheader("🍔 Proportion of Fast Food Consumption Frequency by Diet Type")
+# Create a contingency table (cross-tabulation)
+contingency_table = pd.crosstab(df['Diet Type'], df['Fast Food Consumption Frequency'])
+
+# Normalize to get proportions (percentages)
+contingency_prop = contingency_table.apply(lambda r: r / r.sum(), axis=1).reset_index()
+
+# Melt the table for Plotly (long format)
+contingency_melted = contingency_prop.melt(id_vars='Diet Type', 
+                                           var_name='Fast Food Consumption Frequency', 
+                                           value_name='Proportion')
+fig = px.bar(
+    contingency_melted,
+    x='Diet Type',
+    y='Proportion',
+    color='Fast Food Consumption Frequency',
+    title='Proportion of Fast Food Consumption Frequency by Diet Type',
+    text=contingency_melted['Proportion'].apply(lambda x: f"{x:.0%}"),
+    color_discrete_sequence=px.colors.qualitative.Pastel
+)
+fig.update_layout(
+    barmode='stack',
+    xaxis_title='Diet Type',
+    yaxis_title='Proportion (1.0 = 100%)',
+    template='plotly_white',
+    legend_title_text='Fast Food Frequency'
+)
+fig.update_yaxes(tickformat=".0%")
+st.plotly_chart(fig, use_container_width=True)
+
+
 
 
 
