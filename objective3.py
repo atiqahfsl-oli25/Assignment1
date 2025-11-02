@@ -7,21 +7,21 @@ st.title("🧠 Objective 3: Food and Water Consumption")
 url = 'https://raw.githubusercontent.com/atiqahfsl-oli25/Assignment1/refs/heads/main/dataframe.csv' 
 df = pd.read_csv(url)
 
-st.subheader("🥗 Diet Type Distribution by Gender")
-# Create grouped bar chart (equivalent to Seaborn countplot with hue)
-fig_diet_gender = px.histogram(
+st.title("🥗 Diet Type by Gender Visualization")
+df['Diet Type'] = df['Diet Type'].replace('nonveg', 'non veg')
+fig = px.bar(
     df,
-    x="Diet Type",
-    color="Gender",
-    barmode="group",
-    title="Diet Type by Gender",
+    x='Diet Type',
+    color='Gender',
+    barmode='group',
+    title='Diet Type by Gender',
     color_discrete_sequence=px.colors.qualitative.Set2
 )
-# Customize layout
-fig_diet_gender.update_layout(
+fig.update_layout(
     xaxis_title="Diet Type",
     yaxis_title="Count",
-    legend_title="Gender",
-    template='plotly_white'
+    title_font=dict(size=20, color='darkblue'),
+    plot_bgcolor='white',
+    legend_title_text='Gender'
 )
-st.plotly_chart(fig_diet_gender, use_container_width=True)
+st.plotly_chart(fig, use_container_width=True)
